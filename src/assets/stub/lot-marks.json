@@ -1,0 +1,47 @@
+[
+  {
+    "lotId": "lot01",
+    "coordinate": {
+      "x": 10,
+      "y": 15
+    },
+    "value2D": {
+      "dx": 100,
+      "dy": 120
+    },
+    "size": {
+      "width": 10,
+      "height": 15
+    }
+  },
+  {
+    "lotId": "lot02",
+    "coordinate": {
+      "x": -10,
+      "y": 15
+    },
+    "value2D": {
+      "dx": 80,
+      "dy": 40
+    },
+    "size": {
+      "width": 10,
+      "height": 15
+    }
+  },
+  {
+    "lotId": "lot03",
+    "coordinate": {
+      "x": 10,
+      "y": -15
+    },
+    "value2D": {
+      "dx": 110,
+      "dy": 150
+    },
+    "size": {
+      "width": 10,
+      "height": 15
+    }
+  }
+]

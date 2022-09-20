@@ -1,0 +1,7 @@
+<ul *ngFor="let lotMark of lotMarks$ | async">
+  {{lotMark.lotId}}
+  <li *ngFor="let mark of lotMark.marks">
+    ({{mark.coordinate.x}}, {{mark.coordinate.y}}):
+    {{mark.value2D.dx}}-{{mark.value2D.dy}}
+  </li>
+</ul>
